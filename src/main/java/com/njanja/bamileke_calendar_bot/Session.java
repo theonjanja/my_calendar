@@ -47,7 +47,8 @@ public class Session {
     Village village;
     String dateSaisie = "";
     String dateReformatee = "";
-    String messageAccueil = "1 => Calendrier Bamiléké\n" + "2 => Jours sacrés selon le calendrier Bamiléké\n" + "3 => Jours du marché à l'Ouest-Cameroun\n";
+    String messageAccueil = "1 => Calendrier Bamiléké\n" + "2 => Jours sacrés selon le calendrier Bamiléké\n" + "3 => Jours du marché à l'Ouest-Cameroun\n"  +
+    		"\nPour vos applications informatiques, contacter: 237699195512 / 237675144926";
     String jourSemaine;
 
     Session (Update update){
@@ -296,8 +297,9 @@ public class Session {
     }
 
     public String menuAccueil(String firstName, String lastName){
-        return "Bienvenu Mr " + (firstName != null? firstName : "") + " " + (lastName != null? lastName : "") + " dans l'application Calendrier Bamiléké. Faites votre choix:\n\n"
-                + "1 => Calendrier Bamiléké\n2 => Jours sacrés selon le calendrier Bamiléké\n3 => Jours du marché à l'Ouest-Cameroun";
+        return "Bienvenu M. " + (firstName != null? firstName : "") + " " + (lastName != null? lastName : "") + " dans l'application Calendrier Bamiléké. Faites votre choix:\n\n"
+                + "1 => Calendrier Bamiléké\n2 => Jours sacrés selon le calendrier Bamiléké\n3 => Jours du marché à l'Ouest-Cameroun" +
+        		"\n\nPour vos applications informatiques, contacter: 237699195512 / 237675144926";
     }
     public String listeLangues(){
         return "Veuillez choisir une langue:\n\n" + "1 => Bafung\n2 => Fe'efe'e\n3 => Ghomala\n4 => Gomba’a" +
@@ -410,7 +412,7 @@ public class Session {
             return false;
         dateSaisie = annee + "-" + (mois < 10? "0" + mois: mois) + "-" + (jour < 10? "0" + jour: jour);
         dateReformatee = (jour < 10? "0" + jour: jour) + "-" + (mois < 10? "0" + mois: mois) + "-" + annee;
-        System.out.println("Voici la date entrée: " + dateSaisie);
+        // System.out.println("Voici la date entrée: " + dateSaisie);
         return true;
     }
 

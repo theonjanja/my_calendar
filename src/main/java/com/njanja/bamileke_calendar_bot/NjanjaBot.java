@@ -43,7 +43,7 @@ public class NjanjaBot extends TelegramLongPollingBot {
 
     public void onUpdateReceived(Update update) {
         String retour;
-        System.out.println(update);
+        // System.out.println(update);
         SendMessage message = new SendMessage();
         message.setParseMode("markdown");
         try {
