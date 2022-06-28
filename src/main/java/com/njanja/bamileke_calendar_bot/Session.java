@@ -30,7 +30,7 @@ public class Session {
             //Gomba’a
             {"Seugouè", "Njeula", "Kateu", "Kapot", "Metagoué", "Tsure", "Pobuo", "Mota"},
             //Medumba
-            {"Nga", "Nk\u0254\u0302nt\u0289","Nzi\u030cnyam (Nsigh\u00F2g)","Nt\u03b1\u0302nbu\u0300’","Nt\u03b1\u0302nt\u0259’","Nt\u03b1nla’","Nsigha","Nse\u030cmnt\u0259’"},
+            {"Nga", "Nk\u0254\u0302t\u0289","Nzi\u030cnyam (Nsigh\u00F2g)","Nt\u03b1\u0302nbu\u0300’","Nt\u03b1\u0302nt\u0259’","Nt\u03b1nla’","Nsigha","Nse\u030cmnt\u0259’"},
             //Mengaka
             {"Yenkopié", "Yengwié", "Yentete", "Yenkap", "Yessi", "Yenkeosi", "Yenkinze", "Yepié"},
             //Nguemba
