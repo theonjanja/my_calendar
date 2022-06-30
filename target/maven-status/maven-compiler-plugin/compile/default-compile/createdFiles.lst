@@ -1,6 +1,6 @@
-MainClass.class
-Session.class
-SessionKiller.class
-Noeud.class
-NjanjaBot.class
-Village.class
+com\bot\njanja_1bot\Noeud.class
+com\bot\njanja_1bot\SessionKiller.class
+com\bot\njanja_1bot\Session.class
+com\bot\njanja_1bot\MainClass.class
+com\bot\njanja_1bot\Village.class
+com\bot\njanja_1bot\NjanjaBot.class
