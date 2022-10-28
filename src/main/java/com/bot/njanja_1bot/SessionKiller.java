@@ -22,7 +22,7 @@ public class SessionKiller implements  Runnable{
         while(true) {
             for(int i = 0; i < listOfSession.size(); i++) {
                 System.out.println(Duration.between(listOfSession.get(i).getlastEntryTime(), LocalDateTime.now()).getSeconds());
-                if(Duration.between(listOfSession.get(i).getlastEntryTime(), LocalDateTime.now()).getSeconds() > 60) {
+                if(Duration.between(listOfSession.get(i).getlastEntryTime(), LocalDateTime.now()).getSeconds() > 300) {
                     listOfSession.remove(i);
                 }
             }

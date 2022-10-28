@@ -294,7 +294,7 @@ public class Session {
     }
 
     public String menuAccueil(String firstName, String lastName){
-        return "Bienvenu Mr " + (firstName != null? firstName : "") + " " + (lastName != null? lastName : "") + " dans l'application Calendrier Bamiléké. Faites votre choix:\n\n"
+        return "Bienvenu M. " + (firstName != null? firstName : "") + " " + (lastName != null? lastName : "") + " dans l'application Calendrier Bamiléké. Faites votre choix:\n\n"
                 + "1 => Calendrier Bamiléké\n2 => Jours sacrés selon le calendrier Bamiléké\n3 => Jours du marché à l'Ouest-Cameroun";
     }
     public String listeLangues(){
